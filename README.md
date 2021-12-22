@@ -5,7 +5,7 @@ A Next  Front-End app for showing your personal blog .
 
 
 ## Demo
-()
+(https://blog-next-tan.vercel.app)
 
 ## Built using
 
