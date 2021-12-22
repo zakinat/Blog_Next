@@ -1,27 +1,45 @@
-# Next.js + Tailwind CSS Example
+# Blog
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-## Preview
+A Next  Front-End app for showing your personal blog .
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Demo
+()
 
-## Deploy your own
+## Built using
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+#### Front-end
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- [NextJS](https://nextjs.org) - Frontend framework
+- [Scss](https://sass-lang.com/) -powerful professional grade CSS extension language in the world.
+- [react-icons](https://www.npmjs.com/package/react-icons) -popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using
+- [moment](https://momentjs.com) -Parse, validate, manipulate, and display dates and times in JavaScript.
+- [graphql](https://graphql.org) -GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
+- [tailwindcss](https://tailwindcss.com) -A utility-first CSS framework packed with classes.
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+
+
+
+
+## Features
+full responsive UI with various screens
+you can browsing for posts and to get the details for a certain post and leave a comment to the post
+
+
+
+## Usage
+
+#### Client:
+create a .env file in /CLIENT
+and add a your graphql api from the website (https://graphcms.com)
+NEXT_PUBLIC_GRAPPHCMS_ENDPOINT=...
+GRAPH_TOKEN=...
+
 ```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+cd client
+npm install
+npm run dev
+```
