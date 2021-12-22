@@ -1,0 +1,33 @@
+.navbar{
+    padding-bottom: 1rem;
+    border-bottom: 0.2px solid white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+        &__brand{
+            span{
+                font-size: 1.8rem;
+            }
+        }
+
+        &__links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            span{
+                margin-left: 1rem;
+                margin-bottom: rem;
+            }
+        }
+
+}
+
+@media screen and (max-width: 770px){
+.navbar{
+    &__links{
+        display: none;
+    }
+}
+}

@@ -1,0 +1,22 @@
+.commentsForm{
+    padding:2rem ;
+    &__comment{
+        textarea{
+            background-color: #E8E8E8;
+        }
+    }
+
+    &__user{
+        input{
+            background-color: #E8E8E8;
+            margin-bottom: 1rem;
+            padding: 1rem;
+        }
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
